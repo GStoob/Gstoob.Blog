@@ -1,0 +1,9 @@
+[Pp]ackages/
+[Tt]ools/*
+.vscode/
+![Tt]ools/packages.config
+[Oo]utput/
+nuget.exe
+*.zip
+/debug.log
+/packages.xml
