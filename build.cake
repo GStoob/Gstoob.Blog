@@ -47,7 +47,7 @@ Task("Deploy")
 
     // Upload via curl and zip to netlify
     Zip("./output", "output.zip", "./output/**/*");
-    StartProcess("curl", "--header \"Content-Type: application/zip\" --header \"Authorization: Bearer" + netlifyAccessToken + "\" --data-binary \"@output.zip\" --url https://api.netlify.com/api/v1/sites/gstoob-online.netlify.com/deploys");
+    StartProcess("curl", "--header \"Content-Type: application/zip\" --header \"Authorization: Bearer " + netlifyAccessToken + "\" --data-binary \"@output.zip\" --url https://api.netlify.com/api/v1/sites/gstoob-online.netlify.com/deploys");
 });
 
 
