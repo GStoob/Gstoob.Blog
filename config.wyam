@@ -1,0 +1,5 @@
+Settings[Keys.Host] = "gstoob-online.netlify.com";
+Settings[Keys.LinksUseHttps] = true;
+Settings[BlogKeys.Title] = "Gstoob-Online: Yet Another Programming Blog";
+Settings[BlogKeys.Description] = "The private blog of Gianluca Stoob";
+Settings[BlogKeys.Intro] = "Hi hi! I'm Gianluca. It's cool that you found my blog!";
